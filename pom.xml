@@ -49,6 +49,17 @@
             <version>${solace.jms.version}</version>
         </dependency>
 
+        <dependency>
+            <groupId>dev.snowdrop</groupId>
+            <artifactId>narayana-spring-boot-starter</artifactId>
+            <version>3.5.0</version> <!-- current as of 2025  [oai_citation:6‡Maven Central](https://central.sonatype.com/artifact/dev.snowdrop/narayana-spring-boot-starter?utm_source=chatgpt.com) -->
+        </dependency>
+
+        <!-- Jakarta Transaction API -->
+        <dependency>
+            <groupId>jakarta.transaction</groupId>
+            <artifactId>jakarta.transaction-api</artifactId>
+        </dependency>
         <!-- H2 Database -->
         <dependency>
             <groupId>com.h2database</groupId>
